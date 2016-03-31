@@ -1,0 +1,66 @@
+/* Random Quote Generator main.css */
+body{
+	font-family: 'Exo', sans-serif;
+	background-color: #000;
+	background-image: url("https://i.ytimg.com/vi/voWpbz1De_M/maxresdefault.jpg");
+	color: #fff;
+}
+.container{
+	width: 800px; /* Is there a reason to put both px and/or ems vs %? should I even include this? */
+	width: 50%;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+/*siteSplash section*/
+#starWarsLogo{
+	width: 80%;
+	height: 80%;
+}
+#siteSplash{
+	text-align: center;
+}
+
+#siteSplash a{
+	text-decoration: none;
+	color: #AAA;
+}
+
+#siteSplash a:hover{
+	color: #FFBF00;
+}
+
+#siteSplash h1{
+	background-color: #000;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #FFBF00;
+	color: #FFBF00;
+}
+
+/* well quoteSpace section */
+#quoteSpace{
+	width:75%;
+	text-align: center;
+	color: #000;
+}
+#quotePerson{
+	font-style: italic;
+	font-weight: 600;
+}
+/* quoteBtn section */
+#quoteBtn{
+	text-align: center;
+}
+
+/* quoteTweet section (footer) */
+footer{
+	text-align: center;
+}
+
+/* DO I NEED MEDIA QUERIES? */
+@media screen and(max-width: 760px){
+	#quoteBtn,#.addNew{
+		display: block;
+	}
+}
