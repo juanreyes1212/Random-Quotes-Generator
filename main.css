@@ -6,7 +6,7 @@ body{
 	color: #fff;
 }
 .container{
-	width: 800px; /* Is there a reason to put both px and/or ems vs %? should I even include this? */
+	width: 800px; /* Is there a reason to put both px and/or ems vs %? should I even include this fallback? */
 	width: 50%;
 	margin: 10px auto;
 	padding: 10px;
@@ -58,7 +58,7 @@ footer{
 	text-align: center;
 }
 
-/* DO I NEED MEDIA QUERIES? */
+/* todo:desktop vs mobile design? */
 @media screen and(max-width: 760px){
 	#quoteBtn,#.addNew{
 		display: block;
